@@ -316,7 +316,7 @@ public class PlayerProfile {
                 TiersClient.showUpdatedPlayerProfile(this, false);
 
 //            if (mode == 0 || mode == 1)
-//                profileMCTiers = new MCTiersProfile("https://mctiers.com/api/v2/profile/", uuid, extra);
+//                profileMCTiers = new MCTiersProfile("https://potal-production.up.railway.app/api/rank?username=", uuid, extra);
             if (mode == 0 || mode == 2)
                 profilePvPTiers = new PvPTiersProfile("https://pvptiers.com/api/profile/", uuid, extra);
 //            if (mode == 0 || mode == 3)
